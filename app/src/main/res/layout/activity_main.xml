@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_root"
+        android:orientation="vertical">
+        <com.example.stepview.view.StepView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:stepPos="0"
+            ></com.example.stepview.view.StepView>
+        <com.example.stepview.view.StepView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:stepPos="1"
+            ></com.example.stepview.view.StepView>
+        <com.example.stepview.view.StepView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:stepPos="2"
+            ></com.example.stepview.view.StepView>
+        <com.example.stepview.view.StepView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:stepPos="3"
+            ></com.example.stepview.view.StepView>
+        <com.example.stepview.view.StepView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:stepPos="4"
+            ></com.example.stepview.view.StepView>
+        <com.example.stepview.view.StepView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:stepPos="5"
+            ></com.example.stepview.view.StepView>
+    </LinearLayout>
+
+
+</LinearLayout>
